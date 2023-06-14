@@ -20,6 +20,7 @@ public class NewServlet extends HttpServlet {
        
     
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("Hello");
 		String col1 = request.getParameter("col1");
 		String col2 = request.getParameter("col2");
 		String col3 = request.getParameter("col3");
